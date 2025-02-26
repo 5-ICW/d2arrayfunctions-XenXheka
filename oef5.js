@@ -4,3 +4,5 @@
  *
  */
 const namenlijst = ["Karel", "Pieter", "Pol", "Stef"];
+const nieuweLijst = namenlijst.filter((item) => item.startsWith("P"));
+console.log(nieuweLijst);
